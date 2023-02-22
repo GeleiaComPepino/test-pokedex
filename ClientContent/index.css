@@ -1,0 +1,49 @@
+@font-face {
+    font-family: PokemonFont;
+    src: url(fonts/8-BIT\ WONDER.ttf);
+}
+body{
+    background-color: #1E1C19;
+}
+.imagePokemon{
+    width: 96px;
+    height: 96px;
+}
+.pokemonsContainer{
+    border:2px solid rgb(59, 57, 50);
+    border-radius:10px;
+    display:flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    align-content: center;
+}
+
+header{
+    border:2px solid rgb(59, 57, 50);
+    border-radius:10px;
+    height: 50px;
+    text-align: center;
+    height: 90px;
+}
+.pokemon{
+    border:2px solid rgb(59, 57, 50);
+    border-radius:10px;
+    height: 200px;
+    width: 144px;
+    margin: 10px;
+}
+.pokedexLogo{
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.pokemonLogo{
+    border:2px solid rgb(59, 57, 50);
+    border-radius: 10px;
+}
+.pokemonName{
+    font-family: PokemonFont;
+    font-size:small;
+    color: white;
+}
